@@ -1,0 +1,27 @@
+#ifndef NODE_H
+#define NODE_H
+
+namespace tp2 {
+
+    class Node
+    {
+    private:
+        int Dado;
+        Node* pAnterior;
+        Node* pProximo;
+    public:
+        Node();
+        Node(int Dado);
+
+        void set_pAnterior(Node* pAnterior){this->pAnterior = pAnterior;}
+        Node* get_pAnterior(){return pAnterior;}
+
+        void set_pProximo(Node* pProximo){this->pProximo = pProximo;}
+        Node* get_pProximo()const{return pProximo;}
+
+        void setDado(int Dado){this->Dado=Dado;}
+        int getDado()const{return Dado;}
+    };
+}
+
+#endif // NODE_H

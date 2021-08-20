@@ -1,0 +1,11 @@
+debug/cliente.o
+debug/clientepersistencia.o
+debug/ldec.o
+debug/main.o
+debug/mainwindow.o
+debug/no.o
+debug/pedido.o
+debug/pedidopersistencia.o
+debug/produto.o
+debug/produtopersistencia.o
+debug/moc_mainwindow.o

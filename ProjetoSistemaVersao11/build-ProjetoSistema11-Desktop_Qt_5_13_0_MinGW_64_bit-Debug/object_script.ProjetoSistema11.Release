@@ -1,0 +1,11 @@
+release/cliente.o
+release/clientepersistencia.o
+release/ldec.o
+release/main.o
+release/mainwindow.o
+release/no.o
+release/pedido.o
+release/pedidopersistencia.o
+release/produto.o
+release/produtopersistencia.o
+release/moc_mainwindow.o
